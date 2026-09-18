@@ -1,0 +1,6 @@
+[web]
+Terraform-Ansible-Web ansible_host=YOUR_PUBLIC_IP private_ip=YOUR_PRIVATE_IP
+
+[all:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/terraform-ansible-key

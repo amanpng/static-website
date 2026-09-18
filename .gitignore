@@ -1,0 +1,32 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+terraform/*.tfplan.json
+terraform/.terraform.tfstate.lock.info
+
+# Generated Ansible inventory
+ansible/inventory
+ansible/inventory.bak
+
+# SSH/private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+terraform-ansible-key
+terraform-ansible-key.pub
+
+# Secrets / environment files
+.env
+.env.*
+*.tfvars
+*.tfvars.json
+
+# OS/editor files
+.DS_Store
+*.swp
+*~
